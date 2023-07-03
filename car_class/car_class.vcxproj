@@ -20,10 +20,18 @@
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="main.cpp" />
-    <ClCompile Include="source\car_class.cpp" />
+    <ClCompile Include="source\carClass.cpp" />
+    <ClCompile Include="source\carFactory.cpp" />
+    <ClCompile Include="source\carTestOrganization.cpp" />
+    <ClCompile Include="source\engineClass.cpp" />
+    <ClCompile Include="source\engineFactory.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="header\car_class.h" />
+    <ClInclude Include="header\carClass.h" />
+    <ClInclude Include="header\carFactory.h" />
+    <ClInclude Include="header\carTestOrganization.h" />
+    <ClInclude Include="header\engineClass.h" />
+    <ClInclude Include="header\engineFactory.h" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>

@@ -1,17 +1,17 @@
-#include "header/car_class.h"
+#include <iostream>
+
+#include "header/carClass.h"
+#include "header/engineClass.h"
+#include "header/engineFactory.h"
+#include "header/carFactory.h"
+#include "header/carTestOrganization.h"
 
 int main()
 {
-    Car Reno_Logan(90);
+    Car newCar = carFactory();
 
-    Reno_Logan.set_fuel_amount(60);
+    carTestOrganization(newCar);
 
-    Reno_Logan.set_engine(1598);
-
-    Car::Engine engine;
-
-    engine.get_fuel_rate();
-
-    Reno_Logan.ride(5.7);
+    return 0;
 
 }
