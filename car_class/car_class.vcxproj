@@ -20,11 +20,27 @@
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="main.cpp" />
-    <ClCompile Include="source\carClass.cpp" />
-    <ClCompile Include="source\carFactory.cpp" />
-    <ClCompile Include="source\carTestOrganization.cpp" />
-    <ClCompile Include="source\engineClass.cpp" />
-    <ClCompile Include="source\engineFactory.cpp" />
+    <ClCompile Include="source\carClass.cpp">
+      <AdditionalIncludeDirectories Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">header</AdditionalIncludeDirectories>
+    </ClCompile>
+    <ClCompile Include="source\carFactory.cpp">
+      <AdditionalIncludeDirectories Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">header</AdditionalIncludeDirectories>
+    </ClCompile>
+    <ClCompile Include="source\carTestOrganization.cpp">
+      <AdditionalIncludeDirectories Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">header</AdditionalIncludeDirectories>
+    </ClCompile>
+    <ClCompile Include="source\engineClass.cpp">
+      <AdditionalIncludeDirectories Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">header</AdditionalIncludeDirectories>
+    </ClCompile>
+    <ClCompile Include="source\engineFactory.cpp">
+      <AdditionalIncludeDirectories Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">header</AdditionalIncludeDirectories>
+    </ClCompile>
+    <ClCompile Include="source\wheelsClass.cpp">
+      <AdditionalIncludeDirectories Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">header</AdditionalIncludeDirectories>
+    </ClCompile>
+    <ClCompile Include="source\wheelsFactory.cpp">
+      <AdditionalIncludeDirectories Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">header</AdditionalIncludeDirectories>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="header\carClass.h" />
@@ -32,6 +48,8 @@
     <ClInclude Include="header\carTestOrganization.h" />
     <ClInclude Include="header\engineClass.h" />
     <ClInclude Include="header\engineFactory.h" />
+    <ClInclude Include="header\wheelsClass.h" />
+    <ClInclude Include="header\wheelsFactory.h" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>
@@ -119,6 +137,7 @@
       <SDLCheck>true</SDLCheck>
       <PreprocessorDefinitions>_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
+      <AdditionalIncludeDirectories>C:\Users\Arina\Desktop\visual_studio\cpp_projects\car_class\car_class\header</AdditionalIncludeDirectories>
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>

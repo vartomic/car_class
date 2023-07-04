@@ -1,5 +1,5 @@
-#include "../header/engineFactory.h"
-#include "../header/engineClass.h"
+#include "engineFactory.h"
+#include "engineClass.h"
 
 Engine engineFactory() {
 

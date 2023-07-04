@@ -1,7 +1,7 @@
-#include "../header/carTestOrganization.h"
-#include "../header/carClass.h"
+#include "carTestOrganization.h"
+#include "carClass.h"
 
 void carTestOrganization(Car testCar) {
 	testCar.setFuelAmount(100);
-	//testCar.ride();
+	testCar.ride();
 }

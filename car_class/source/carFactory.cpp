@@ -1,7 +1,7 @@
-#include "../header/carFactory.h"
-#include "../header/engineClass.h"
-#include "../header/carClass.h"
-#include "../header/engineFactory.h"
+#include "carFactory.h"
+#include "engineClass.h"
+#include "carClass.h"
+#include "engineFactory.h"
 
 Car carFactory() {
 

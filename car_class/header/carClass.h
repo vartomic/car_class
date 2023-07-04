@@ -1,25 +1,30 @@
 #pragma once
 
-#include "../header/engineClass.h"
+#include "engineClass.h"
+#include "wheelsClass.h"
 
 class Car {
 
 private:
 
-	Engine carEngine = setEngine(carEngine);
+	Engine carEngine;
 	int fuelAmount;
-
+	int maxFuel;
+	Wheels carWheels;
 
 public:
 
 	Car(const int FuelMax) {
+		maxFuel = FuelMax;
 		fuelAmount = 0;
 	};
 
-	Engine setEngine(Engine carEngine);
+	void setEngine(Engine carEngine);
 
 	void setFuelAmount(int fuelAmount);
 
-	//void ride();
+	void setWheels(Wheels carWheels);
+
+	void ride();
 
 };

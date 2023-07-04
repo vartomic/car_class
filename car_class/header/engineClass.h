@@ -7,6 +7,8 @@ private:
 
 public:
 
+	Engine() {};
+
 	Engine(const double FuelConsumption) {
 		engineConsumption = FuelConsumption;
 	};

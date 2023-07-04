@@ -1,17 +1,24 @@
 #include <iostream>
-#include "../header/carClass.h"
-#include "../header/engineClass.h"
+#include "carClass.h"
+#include "engineClass.h"
+#include "wheelsClass.h"
 
 void Car::setFuelAmount(int amount) {
 	fuelAmount = amount;
 }
 
-//void Car::ride() {
-//	auto consumption = getFuelConsumption();
-//	std::cout << (fuelAmount/) * 100;
-//}
+void Car::ride() {
 
-Engine Car::setEngine(Engine engine) {
+	Engine carEngine;
+
+	double engineConsumption = carEngine.getFuelConsumption();
+	std::cout << (fuelAmount/engineConsumption) * 100;
+}
+
+void Car::setEngine(Engine engine) {
 	carEngine = engine;
-	return carEngine;
+}
+
+void Car::setWheels(Wheels wheels) {
+	carWheels = wheels;
 }
