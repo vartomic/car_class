@@ -3,22 +3,24 @@
 #include "engineClass.h"
 #include "wheelsClass.h"
 
+//set fuel amount
 void Car::setFuelAmount(int amount) {
 	fuelAmount = amount;
 }
 
+//cout double car distance
 void Car::ride() {
-
-	Engine carEngine;
-
-	double engineConsumption = carEngine.getFuelConsumption();
-	std::cout << (fuelAmount/engineConsumption) * 100;
+	auto engineConsumption = carEngine.getFuelConsumption();
+	auto brakingRate = carWheels.getBrakingRate();
+	std::cout << ((fuelAmount/engineConsumption) * 100)/brakingRate;
 }
 
+//set engine
 void Car::setEngine(Engine engine) {
 	carEngine = engine;
 }
 
+//set wheels
 void Car::setWheels(Wheels wheels) {
 	carWheels = wheels;
 }

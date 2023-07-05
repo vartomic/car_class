@@ -1,5 +1,6 @@
 #include "wheelsClass.h"
 
-double Wheels::getWheelsDiameter() {
-	return carWheelsDiameter;
+//return braking efficiency coefficient
+double Wheels::getBrakingRate() {
+	return brakingRate;
 }

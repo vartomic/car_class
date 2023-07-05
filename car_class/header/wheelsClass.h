@@ -3,15 +3,18 @@
 class Wheels {
 
 private:
-	double carWheelsDiameter;
+	double brakingRate;
 
 public:
 
+	//empty constructor car wheels
 	Wheels() {};
 
-	Wheels(const double wheelsDiameter) {
-		carWheelsDiameter = wheelsDiameter;
+	//wheels constructor with param
+	Wheels(const double wheelsBrakingRate) {
+		brakingRate = wheelsBrakingRate;
 	};
 
-	double getWheelsDiameter();
+	//return braking efficiency coefficient
+	double getBrakingRate();
 };

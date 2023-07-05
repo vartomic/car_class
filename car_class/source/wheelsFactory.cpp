@@ -3,9 +3,11 @@
 
 Wheels wheelsFactory() {
 
-	const double wheelsDiameter = 14;
+	//set braking coefficient
+	const double brakingRate = 1.2;
 
-	Wheels wheels4(wheelsDiameter);
+	//create wheels
+	Wheels wheels4(brakingRate);
 
 	return wheels4;
 }
