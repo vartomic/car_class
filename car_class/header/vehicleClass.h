@@ -2,27 +2,11 @@
 
 class Vehicle {
 
-private:
-	//max weight
-	int maxWeight;
-
-	//vehicle mass withoud load
-	int massWithoutLoad;
-
-	//number of passangers seats
-	int passangerSeats;
-
-	//max weight of passengers
-	int massPassengers;
-
-	//weight of cargo
-	int massCargo;
-
 public:
 
-	//weight of passengers
-	int massPassengers();
+	//func set amount of fuel
+	virtual void setFuelAmount(int fuelAmount) {};
 
-	//weight of cargo
-	int massCargo();
+	// cout double car distance
+	virtual void ride() {};
 };

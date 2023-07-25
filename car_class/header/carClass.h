@@ -2,8 +2,9 @@
 
 #include "engineClass.h"
 #include "wheelsClass.h"
+#include "vehicleClass.h"
 
-class Car {
+class Car : public Vehicle {
 
 private:
 
