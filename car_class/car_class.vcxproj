@@ -48,6 +48,7 @@
     <ClInclude Include="header\carTestOrganization.h" />
     <ClInclude Include="header\engineClass.h" />
     <ClInclude Include="header\engineFactory.h" />
+    <ClInclude Include="header\vehicleClass.h" />
     <ClInclude Include="header\wheelsClass.h" />
     <ClInclude Include="header\wheelsFactory.h" />
   </ItemGroup>

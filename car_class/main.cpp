@@ -5,6 +5,7 @@
 #include "engineFactory.h"
 #include "carFactory.h"
 #include "carTestOrganization.h"
+#include "vehicleClass.h"
 
 int main()
 {

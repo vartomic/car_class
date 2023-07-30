@@ -2,6 +2,7 @@
 #include "carClass.h"
 #include "engineClass.h"
 #include "wheelsClass.h"
+#include "vehicleClass.h"
 
 //set fuel amount
 void Car::setFuelAmount(int amount) {

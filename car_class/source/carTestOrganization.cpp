@@ -1,8 +1,10 @@
 #include "carTestOrganization.h"
 #include "carClass.h"
 
+#include "vehicleClass.h"
+
 //testing func
-void carTestOrganization(Car testCar) {
+void carTestOrganization(Vehicle& testCar) {
 	
 	//set fuel in a car
 	testCar.setFuelAmount(100);

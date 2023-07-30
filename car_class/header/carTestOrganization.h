@@ -1,6 +1,6 @@
 #pragma once
 
-#include "carClass.h"
+#include "vehicleClass.h"
 
 //car testing function
-void carTestOrganization(Car testCar);
+void carTestOrganization(Vehicle& testCar);
