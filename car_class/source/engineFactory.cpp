@@ -1,9 +1,14 @@
 #include "engineFactory.h"
 #include "engineClass.h"
+#include <iostream>
 
 Engine engineFactory() {
 
-	const double FuelConsumption = 5.7;
+	double FuelConsumption;
+
+	std::cout << "Enter engine's fuel consumption: ";
+
+	std::cin >> FuelConsumption;
 
 	//engine with fuel consumption param
 	Engine engine(FuelConsumption);

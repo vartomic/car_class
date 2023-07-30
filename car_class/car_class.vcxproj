@@ -35,6 +35,8 @@
     <ClCompile Include="source\engineFactory.cpp">
       <AdditionalIncludeDirectories Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">header</AdditionalIncludeDirectories>
     </ClCompile>
+    <ClCompile Include="source\truckClass.cpp" />
+    <ClCompile Include="source\truckFactory.cpp" />
     <ClCompile Include="source\wheelsClass.cpp">
       <AdditionalIncludeDirectories Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">header</AdditionalIncludeDirectories>
     </ClCompile>
@@ -48,6 +50,8 @@
     <ClInclude Include="header\carTestOrganization.h" />
     <ClInclude Include="header\engineClass.h" />
     <ClInclude Include="header\engineFactory.h" />
+    <ClInclude Include="header\truckClass.h" />
+    <ClInclude Include="header\truckFactory.h" />
     <ClInclude Include="header\vehicleClass.h" />
     <ClInclude Include="header\wheelsClass.h" />
     <ClInclude Include="header\wheelsFactory.h" />

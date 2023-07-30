@@ -13,7 +13,7 @@ void Car::setFuelAmount(int amount) {
 void Car::ride() {
 	auto engineConsumption = carEngine.getFuelConsumption();
 	auto brakingRate = carWheels.getBrakingRate();
-	std::cout << ((fuelAmount/engineConsumption) * 100)/brakingRate;
+	std::cout << ((fuelAmount/engineConsumption) * 100)/brakingRate << std::endl;
 }
 
 //set engine
